@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+    left: 0;
+}
+:root{
+    --bg-color:#000000d0;
+    --div-color:#000000ce;
+    --filtro-color:#19191997;
+    --text-color:#fff;
+    --icon-color:#fc4850;
+    --btn-color:#084203;
+    --total-color:#59adff;
+}
+body{
+    background-color: var(--bg-color);
+    color:var(--text-color);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.container{
+    background:var(--div-color);
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-top: -15px;
+}
+.container-img{
+    margin: auto;
+    display: block;
+}
+.img-logo{
+    margin: auto;
+    display: flex;
+}
+.container-img img{
+    width: 3.5rem;
+    border-radius: 10px;
+    top: 3.2rem;
+    left: -30rem;
+    position: relative;
+}
+.img-logo img{
+    margin-top: 2.3rem;
+}
+.container-outin{
+    margin: auto;
+    display: block;
+    margin-top: -9rem;
+}
+h1{
+    margin: auto;
+    display: flex;
+    margin-left: 9rem;
+    font-weight: 500;
+    font-size: 35px;
+}
+h5{
+    margin: auto;
+    display: flex;
+    font-weight: bold;
+    font-size: 18px;
+    color: var(--icon-color);
+    margin-left: 9.3rem;
+}
+.container-outin h1{
+    margin-top: 8.3rem;
+}
+.registrar{
+    margin: auto;
+    justify-content: end;
+    align-items: end;
+    flex-direction: row;
+    display: flex;
+    left: -2rem;
+    top: -3rem;
+    position: relative;
+}
+.btn-registrar{
+    color: var(--text-color);
+    background: var(--btn-color);
+    border-radius: 15px;
+    border:none;
+    padding:5px;
+    width: 100px;
+    cursor: pointer;
+}
+.btn-registrar:hover{
+    box-shadow: 0 0 8px var(--btn-color);
+}
+.cards{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 800px;
+}
+.cards .entradas{
+    background:var(--btn-color);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px var(--btn-color);
+    width: 250px;
+    height: 130px;
+}
+.entradas h2{
+    text-align: end;
+    font-size: 20px;
+    font-weight: normal;
+}
+#entrada ,h3{
+    position: relative;
+    top: 2.2rem;
+    font-size: 30px;
+    font-weight: normal;
+}
+.cards .saidas{
+    background: var(--icon-color);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px var(--icon-color);
+    width: 250px;
+    height: 130px;
+}
+.saidas h2{
+    text-align: end;
+    font-size: 20px;
+    font-weight: normal;
+}
+.cards .totals{
+    background: var(--total-color);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px var(--total-color);
+    width: 250px;
+    height: 130px;
+}
+.filtrar{
+    position: relative;
+    background: var(--filtro-color);
+    top: 2rem;
+    max-width: 65rem;
+    margin: auto;
+    border-radius: 20px;
+    padding: auto;
+    height: 250px;
+    max-height: 300px;
+}
+.filtrar h4{
+    text-align: center;
+    font-weight: normal;
+    position: relative;
+    top: 10px;
+}
+.pesquisar{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 0.2rem;
+}
+.input-search{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 300px;
+    max-width: 350px;
+}
+.btn-search{
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background:var(--btn-color);
+    box-shadow: 0 0 10px var(--btn-color);
+    color: var(--text-color);
+    font-size: 16px;
+    cursor: pointer;
+}
+table{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 800px;
+}
+tr th{
+    max-width: 400px;
+    border-radius: 10px;
+    background-color: var(--total-color);
+    color: var(--icon-color);
+    padding: 5px;
+}
+tr td{
+    background: var(--bg-color);
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    color: var(--text-color);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 800px;
+    text-align: center;
+}
